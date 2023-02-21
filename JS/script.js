@@ -5,7 +5,7 @@ let TatalCountEl = document.getElementById("TatalCount")
 let count = 0
 let total=0;
 
-let TotalText=TatalCountEl.textContent;
+//let TotalText=TatalCountEl.textContent;
 function increment() {
     count += 1
     countEl.innerText = count
@@ -19,7 +19,7 @@ function save(){
     
     welcomeEl.textContent+=content;
     SetCountToZeroAndSunm();
-    TatalCountEl.innerText=TotalText+" "+total;
+    TatalCountEl.textContent="Total Count: "+total;
     
     
     
